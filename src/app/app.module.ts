@@ -16,7 +16,6 @@ import { AbstractComponentInheritanceModule } from './abstract-component-inherit
     AbstractDirectiveInheritanceModule,
     AbstractComponentInheritanceModule
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule {
