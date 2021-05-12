@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import {BaseComponent} from '../base/base.component';
+import { Component } from '@angular/core';
+import { BaseComponent } from '../base/base.component';
 
 @Component({
   selector: 'app-abstract-component-inheritance',

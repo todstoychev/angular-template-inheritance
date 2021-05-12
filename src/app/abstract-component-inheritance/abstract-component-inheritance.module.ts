@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 import { AbstractComponentInheritanceComponent } from './abstract-component-inheritance/abstract-component-inheritance.component';
 
 
-
 @NgModule({
   declarations: [
     AbstractComponentInheritanceComponent,
@@ -15,4 +14,5 @@ import { AbstractComponentInheritanceComponent } from './abstract-component-inhe
     CommonModule
   ]
 })
-export class AbstractComponentInheritanceModule { }
+export class AbstractComponentInheritanceModule {
+}

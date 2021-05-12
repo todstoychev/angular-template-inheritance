@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {AbstractClassInheritanceComponent} from './abstract-class-inheritance/abstract-class-inheritance.component';
-
+import { AbstractClassInheritanceComponent } from './abstract-class-inheritance/abstract-class-inheritance.component';
 
 
 @NgModule({
@@ -15,4 +14,5 @@ import {AbstractClassInheritanceComponent} from './abstract-class-inheritance/ab
     CommonModule
   ]
 })
-export class AbstractClassInheritanceModule { }
+export class AbstractClassInheritanceModule {
+}

@@ -1,4 +1,4 @@
-import {Directive, OnInit} from '@angular/core';
+import { Directive, OnInit } from '@angular/core';
 
 @Directive()
 export abstract class BaseDirective implements OnInit {

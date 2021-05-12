@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import {BaseDirective} from '../base.directive';
+import { Component } from '@angular/core';
+import { BaseDirective } from '../base.directive';
 
 @Component({
   selector: 'app-abstract-directive-inheritance',
