@@ -8,4 +8,5 @@ import {Base} from '../base';
 export class AbstractClassInheritanceComponent extends Base {
 
   messageText = this.message();
+
 }
