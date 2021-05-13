@@ -1,6 +1,7 @@
 # AngularTemplateInheritance
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.12.
+It is demonstration project that shows some bad practice and good practice examples of component inheritance in Angular.
 
 ## Development server
 
