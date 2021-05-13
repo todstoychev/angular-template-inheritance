@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { AbstractClassInheritanceModule } from './abstract-class-inheritance/abstract-class-inheritance.module';
 import { AbstractDirectiveInheritanceModule } from './abstract-directive-inheritance/abstract-directive-inheritance.module';
 import { AbstractComponentInheritanceModule } from './abstract-component-inheritance/abstract-component-inheritance.module';
+import { ComponentExtensionModule } from './component-extension/component-extension.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { AbstractComponentInheritanceModule } from './abstract-component-inherit
     BrowserModule,
     AbstractClassInheritanceModule,
     AbstractDirectiveInheritanceModule,
-    AbstractComponentInheritanceModule
+    AbstractComponentInheritanceModule,
+    ComponentExtensionModule
   ],
   bootstrap: [AppComponent]
 })
