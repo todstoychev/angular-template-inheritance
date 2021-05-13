@@ -1,0 +1,5 @@
+@import "../parent/parent.component.css";
+
+.text {
+  color: darkmagenta;
+}

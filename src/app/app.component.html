@@ -1,7 +1,7 @@
 <h1>Angular 11 template inheritance strategies example</h1>
-<hr />
+<hr/>
 
-<div style="color: red">
+<div class="wrong">
   <h1>Abstract class inheritance</h1>
 
   <app-abstract-class-inheritance></app-abstract-class-inheritance>
@@ -9,7 +9,15 @@
 
 <hr/>
 
-<div style="color: green">
+<div class="wrong">
+  <h1>Abstract component inheritance</h1>
+
+  <app-abstract-component-inheritance></app-abstract-component-inheritance>
+</div>
+
+<hr/>
+
+<div class="right">
   <h1>Abstract directive inheritance</h1>
 
   <app-abstract-directive-inheritance></app-abstract-directive-inheritance>
@@ -17,8 +25,9 @@
 
 <hr/>
 
-<div style="color: red">
-  <h1>Abstract component inheritance</h1>
+<div class="right">
+  <h1>Component extension example</h1>
 
-  <app-abstract-component-inheritance></app-abstract-component-inheritance>
+  <app-parent name="Parent component"></app-parent>
+  <app-child name="Child component"></app-child>
 </div>
